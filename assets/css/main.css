@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: white;
+    background-color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -27,19 +27,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 50px;
+    font-size: 50px;
     font-family: canter;
 }
 
 h3 {
-	color: #95a5a6;
-	font-weight: 400;
+    color: #95a5a6;
+    font-weight: 400;
 }
 
 h4 {
-	color: #95a5a6;
-	font-weight: 400;
-	font-size: 20px;
+    color: #95a5a6;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 h6 {
@@ -81,21 +81,15 @@ a:after {
 }
 
 #desc1 {
-  margin-top: 15px;
-  text-align: center;
-  margin-bottom: 25px;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 #desc2 {
-  text-align: center;
-  margin-bottom: 25px;
-  color: #8e44ad;
-}
-
-#desc3 {
-  margin-top: 25px;
-  text-align: center;
-  margin-bottom: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #8e44ad;
 }
 
 #label {
@@ -111,12 +105,9 @@ a:after {
 }
 
 #stage {
-    margin-left: 15%;
-    width: 80%;
-    background-image: url(../img/grid.svg);
-    background-size: cover;
-    padding-top: 60px;
-    padding-bottom: 10px;
+    margin-left: 5%;
+    width: 90%;
+    padding-top: 15px;
     transition: all 1s;
 }
 
@@ -128,26 +119,12 @@ a:after {
     border: 
 }
 
-.name {
-    color: #2c3e50;
-    position: absolute;
-    margin-top: 15px;
-    margin-left: -150px;
-    width: 150px;
-}
-
 .period {
     margin: 0 0;
     display: inline-block;    
     height: inherit;
     padding-top: 15px;
     padding-left: 2px;
-}
-
-.inactive {
-    background-color: rgba(225, 221, 225, 0.3);
-    color: #8e44ad;
-    z-index: 10;
 }
 
 .active {
@@ -172,7 +149,7 @@ a:after {
 }
 
 .aggregate .day .active{    
-     background-color: rgba(231, 76, 60, 0.12);
+    background-color: rgba(231, 76, 60, 0.12);
 }
 
 .aggregate .day .inactive{   
@@ -189,5 +166,59 @@ a:after {
     color: #8e44ad;
 }
 
+#gitlink {
+    display: none;
+}
 
+.name {
+    color: transparent;
+}
+
+.inactive {
+    background-color: rgba(225, 221, 225, 0.3);
+    color: transparent;
+    z-index: 10;
+}
+
+#desc3 {
+/*    margin-top: 25px;*/
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+    .name {
+        color: #2c3e50;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: -150px;
+        width: 150px;
+    }
+
+    .inactive {
+        background-color: rgba(225, 221, 225, 0.3);
+        color: #8e44ad;
+        z-index: 10;
+    }
+
+    #desc3 {
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    #gitlink {
+        display: block;
+    }
+    #stage {
+        margin-left: 15%;
+        width: 80%;
+        background-image: url(../img/grid.svg);
+        background-size: cover;
+        padding-top: 60px;
+        padding-bottom: 10px;
+        transition: all 1s;
+    }
+}
 
