@@ -9,7 +9,11 @@
 }
 
 body {
+<<<<<<< HEAD
     background-color: white;
+=======
+  background-color: white;
+>>>>>>> refs/remotes/origin/master
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -27,11 +31,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+<<<<<<< HEAD
     font-size: 50px;
+=======
+	font-size: 50px;
+>>>>>>> refs/remotes/origin/master
     font-family: canter;
 }
 
 h3 {
+<<<<<<< HEAD
     color: #95a5a6;
     font-weight: 400;
 }
@@ -40,6 +49,16 @@ h4 {
     color: #95a5a6;
     font-weight: 400;
     font-size: 20px;
+=======
+	color: #95a5a6;
+	font-weight: 400;
+}
+
+h4 {
+	color: #95a5a6;
+	font-weight: 400;
+	font-size: 20px;
+>>>>>>> refs/remotes/origin/master
 }
 
 h6 {
@@ -81,6 +100,7 @@ a:after {
 }
 
 #desc1 {
+<<<<<<< HEAD
     margin-top: 15px;
     text-align: center;
     margin-bottom: 25px;
@@ -90,6 +110,23 @@ a:after {
     text-align: center;
     margin-bottom: 25px;
     color: #8e44ad;
+=======
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#desc2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #8e44ad;
+}
+
+#desc3 {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+>>>>>>> refs/remotes/origin/master
 }
 
 #label {
@@ -105,9 +142,18 @@ a:after {
 }
 
 #stage {
+<<<<<<< HEAD
     margin-left: 5%;
     width: 90%;
     padding-top: 15px;
+=======
+    margin-left: 15%;
+    width: 80%;
+    background-image: url(../img/grid.svg);
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 10px;
+>>>>>>> refs/remotes/origin/master
     transition: all 1s;
 }
 
@@ -119,6 +165,17 @@ a:after {
     border: 
 }
 
+<<<<<<< HEAD
+=======
+.name {
+    color: #2c3e50;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -150px;
+    width: 150px;
+}
+
+>>>>>>> refs/remotes/origin/master
 .period {
     margin: 0 0;
     display: inline-block;    
@@ -127,6 +184,15 @@ a:after {
     padding-left: 2px;
 }
 
+<<<<<<< HEAD
+=======
+.inactive {
+    background-color: rgba(225, 221, 225, 0.3);
+    color: #8e44ad;
+    z-index: 10;
+}
+
+>>>>>>> refs/remotes/origin/master
 .active {
     background-color: rgba(251, 56, 50, 0.3);
     z-index: 11;
@@ -149,7 +215,11 @@ a:after {
 }
 
 .aggregate .day .active{    
+<<<<<<< HEAD
     background-color: rgba(231, 76, 60, 0.12);
+=======
+     background-color: rgba(231, 76, 60, 0.12);
+>>>>>>> refs/remotes/origin/master
 }
 
 .aggregate .day .inactive{   
@@ -166,6 +236,7 @@ a:after {
     color: #8e44ad;
 }
 
+<<<<<<< HEAD
 #gitlink {
     display: none;
 }
@@ -221,4 +292,7 @@ a:after {
         transition: all 1s;
     }
 }
+=======
+
+>>>>>>> refs/remotes/origin/master
 
